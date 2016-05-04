@@ -16,6 +16,7 @@
 		79F7F71F1CD84F8000D46563 /* TVEpisodesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7F71E1CD84F8000D46563 /* TVEpisodesUITests.swift */; };
 		79F7F7311CD8510B00D46563 /* TVEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7F7301CD8510B00D46563 /* TVEpisode.swift */; };
 		79F7F7331CD8511800D46563 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7F7321CD8511800D46563 /* APIManager.swift */; };
+		79F7F7361CD9A09A00D46563 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7F7351CD9A09A00D46563 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		79F7F7201CD84F8000D46563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F7F7301CD8510B00D46563 /* TVEpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVEpisode.swift; sourceTree = "<group>"; };
 		79F7F7321CD8511800D46563 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		79F7F7351CD9A09A00D46563 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		79F7F6FD1CD84F7F00D46563 /* TVEpisodes */ = {
 			isa = PBXGroup;
 			children = (
+				79F7F7341CD9A08800D46563 /* Utils */,
 				79F7F72F1CD850DD00D46563 /* Supporting Files */,
 				79F7F72C1CD8508100D46563 /* Model */,
 				79F7F72D1CD8508900D46563 /* View */,
@@ -161,6 +164,14 @@
 				79F7F6FE1CD84F7F00D46563 /* AppDelegate.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F7F7341CD9A08800D46563 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79F7F7351CD9A09A00D46563 /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F7F7361CD9A09A00D46563 /* Constants.swift in Sources */,
 				79F7F7331CD8511800D46563 /* APIManager.swift in Sources */,
 				79F7F7011CD84F7F00D46563 /* ViewController.swift in Sources */,
 				79F7F6FF1CD84F7F00D46563 /* AppDelegate.swift in Sources */,
