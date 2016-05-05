@@ -10,3 +10,7 @@ import Foundation
 
 typealias JSONDictionary = [String:AnyObject]
 typealias JSONArray = [AnyObject]
+
+let kStrReachStatusWifi = "WIFI Available"
+let kStrReachStatusWWAN = "Cellular Available"
+let kStrReachStatusNone = "No Internet Available"

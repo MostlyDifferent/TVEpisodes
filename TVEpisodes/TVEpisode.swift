@@ -46,6 +46,8 @@ class TVEpisode
     private var _vLink: String
     private var _vReleaseDate: String
     
+    var vImageData: NSData?
+    
     var vTitle: String{
         return _vTitle
     }
@@ -136,10 +138,9 @@ class TVEpisode
             _vLink = ""
         }
         
-        
             //release date
         
-        _vRights = JSDicStr(data, first: "im:releasedate", second: "label")
+        _vReleaseDate = JSDicStr(data, first: "im:releasedate", second: "label")
         
         
         
