@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         vInternetCheck = Reachability.reachabilityForInternetConnection()
         vInternetCheck?.startNotifier()
     
+        mStatusChangedWithReachability(vInternetCheck!)
         
         return true
     }

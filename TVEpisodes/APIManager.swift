@@ -10,7 +10,7 @@ import Foundation
 
 class APIManager
 {
-    func fLoadData(urlString: String, completion: [TVEpisode] -> Void)
+    func mLoadData(urlString: String, completion: [TVEpisode] -> Void)
     {
         
         let config = NSURLSessionConfiguration.ephemeralSessionConfiguration()
